@@ -1,0 +1,16 @@
+{
+    "flex-layout.row#first-services": {
+        "props": {
+            "blockClass": [
+                "container",
+                "bgc-gray"
+            ]
+        },
+        "children": [
+            "flex-layout.col#title",
+            "flex-layout.col#first-service",
+            "flex-layout.col#second-service",
+            "flex-layout.col#third-service"
+        ]
+    }
+}

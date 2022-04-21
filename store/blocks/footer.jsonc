@@ -1,26 +1,49 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+    "footer": {
+        "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    },
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#footer-desktop"
+        ]
+    },
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#footer-mobile"
+        ]
+    },
+    "flex-layout.row#footer-desktop": {
+        "children": [
+            "rich-text#copyright-desktop"
+        ],
+        "props": {
+            "marginTop": 8,
+            "blockClass": ["black"] // permite colocar el color de fondo en negro vtex.flex-layout.css
+        }
+    },
+    "flex-layout.row#footer-mobile": {
+        "children": [
+            "rich-text#copyright-mobile"
+        ],
+        "props": {
+            "marginTop": 8,
+            "blockClass": ["black"] // permite colocar el color de fondo en negro vtex.flex-layout.css
+        }
+    },
+    "rich-text#copyright-desktop": {
+        "props": {
+            "text": "**Derechos reservados BlackSip® © 2022 BlackSip.**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-emphasis" // color blanco establecido en style.config linea 227
+        }
+    },
+    "rich-text#copyright-mobile": {
+        "props": {
+            "text": "**Derechos reservados BlackSip**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-emphasis" // color blanco establecido en style.config linea 227
+        }
     }
-  }
 }

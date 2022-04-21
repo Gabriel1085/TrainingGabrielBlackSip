@@ -1,15 +1,34 @@
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text"
-    ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+    "store.home": {
+        
+        "blocks": [
+            "flex-layout.row#main-slider",
+            "flex-layout.row#copy",
+
+            // partners
+            // .phone < 640           Solo celulares
+            // .mobile < 1024         Celulares y tablets
+            // .tablet > 640 < 1024   Solo tablets
+            // .desktop > 1024        Solo desktop
+            "responsive-layout.desktop#partners",
+            "responsive-layout.mobile#partners",
+            "flex-layout.row#first-services",
+            "flex-layout.row#second-services"
+        ]
+    },
+    "flex-layout.row#copy": {
+        "children": [
+            "rich-text#copy"
+        ],
+        "props": {
+            "marginTop": 7
+        }
+    },
+    "rich-text#copy": {
+        "props": {
+            "text": "Somos una empresa experta en servicios de comercio electrónico enfocada en llevar a nuestros clientes a ser mejores vendiendo a través de canales digitales.",
+            "textAlignment": "CENTER",
+            "blockClass": "home-copy"
+        }
     }
-  }
 }

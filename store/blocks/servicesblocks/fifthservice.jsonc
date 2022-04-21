@@ -1,0 +1,37 @@
+{
+    "flex-layout.col#fifth-service": {
+        "props": {
+            "width":"25%"
+        },
+        "children": [
+            "flex-layout.row#image5",
+            "rich-text#text5",
+            "rich-text#link5"
+        ]
+    },
+    "flex-layout.row#image5": {
+        "children": [
+            "image#5"
+        ]
+    },
+    "image#5": {
+        "props": {
+            "title": "service image",
+            "src": "assets/home/services/iconos-serv5.png"
+        }
+    },
+    "rich-text#text5": {
+        "props": {
+            "text": "**Ventas y\nCRM**",
+            "textAlignment" : "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#link5": {
+        "props": {
+            "blockClass":"boton",
+            "text": "[+ Información](https://blacksip.com)",
+            "textPosition": "CENTER"
+        }
+    }
+}

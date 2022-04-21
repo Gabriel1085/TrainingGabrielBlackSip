@@ -1,0 +1,32 @@
+/*
+    Esta regla permite que las columnas se comporten como si existieran dos filas
+    en la versión tablet y desktop
+*/
+.flexRowContent--flex-wrap {
+    flex-wrap: wrap;
+}
+
+/*
+    Establece el fondo de color negro en el footer
+    El color de texto blanco se establece en la propiedad textColor en el bloque rich-text#copyright
+*/
+.flexRow--black {
+    background-color: #000;
+}
+
+.flexRow--bgc-gray  {
+    background-color: #e6e6e6;
+    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+    margin: 0;
+}
+
+.flexRow--bgc-gray :global(.vtex-store-components-3-x-container) {
+    max-width: 1280px;
+    width: 100%;
+}
+
+.flexRow--container :global(.vtex-store-components-3-x-container) {
+    max-width: 1280px;
+    width: 100%;
+}

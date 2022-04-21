@@ -1,0 +1,37 @@
+{
+    "flex-layout.col#first-service": {
+        "props": {
+            "width":"25%"
+        },
+        "children": [
+            "flex-layout.row#image1",
+            "rich-text#text1",
+            "rich-text#link1"
+        ]
+    },
+    "flex-layout.row#image1": {
+        "children": [
+            "image#1"
+        ]
+    },
+    "image#1": {
+        "props": {
+            "title": "service image",
+            "src": "assets/home/services/iconos-serv1.png"
+        }
+    },
+    "rich-text#text1": {
+        "props": {
+            "text": "**Estrategia y\ntransformación digital**",
+            "textAlignment" : "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#link1": {
+        "props": {
+            "blockClass":"boton",
+            "text": "[+ Información](https://blacksip.com)",
+            "textPosition": "CENTER"
+        }
+    }
+}

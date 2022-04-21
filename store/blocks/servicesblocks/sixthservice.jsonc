@@ -1,0 +1,37 @@
+{
+    "flex-layout.col#sixth-service": {
+        "props": {
+            "width":"25%"
+        },
+        "children": [
+            "flex-layout.row#image6",
+            "rich-text#text6",
+            "rich-text#link6"
+        ]
+    },
+    "flex-layout.row#image6": {
+        "children": [
+            "image#6"
+        ]
+    },
+    "image#6": {
+        "props": {
+            "title": "service image",
+            "src": "assets/home/services/iconos-serv6.png"
+        }
+    },
+    "rich-text#text6": {
+        "props": {
+            "text": "**Servicio al\ncliente**",
+            "textAlignment" : "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#link6": {
+        "props": {
+            "blockClass":"boton",
+            "text": "[+ Información](https://blacksip.com)",
+            "textPosition": "CENTER"
+        }
+    }
+}
