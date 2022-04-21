@@ -1,34 +1,44 @@
 {
-    "store.home": {
-        
-        "blocks": [
-            "flex-layout.row#main-slider",
-            "flex-layout.row#copy",
-
-            // partners
-            // .phone < 640           Solo celulares
-            // .mobile < 1024         Celulares y tablets
-            // .tablet > 640 < 1024   Solo tablets
-            // .desktop > 1024        Solo desktop
-            "responsive-layout.desktop#partners",
-            "responsive-layout.mobile#partners",
-            "flex-layout.row#first-services",
-            "flex-layout.row#second-services"
-        ]
-    },
-    "flex-layout.row#copy": {
-        "children": [
-            "rich-text#copy"
-        ],
-        "props": {
-            "marginTop": 7
-        }
-    },
-    "rich-text#copy": {
-        "props": {
-            "text": "Somos una empresa experta en servicios de comercio electrónico enfocada en llevar a nuestros clientes a ser mejores vendiendo a través de canales digitales.",
-            "textAlignment": "CENTER",
-            "blockClass": "home-copy"
-        }
+  "store.home": { 
+    "blocks": [
+      "rich-text",
+      "info-card#button-right",
+      "info-card#button-left"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "Hello, World!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
     }
+  },
+  "info-card#button-right":{
+    "props":{
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage Pink",
+      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      "callToActionMode": "button",
+      "callToActionText": "Explore",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-left":{
+    "props":{
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+      "headline": "Shining chrome",
+      "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+      "callToActionMode": "link",
+      "callToActionText": "Go to Collection",
+      "callToActionUrl": "/sale/a",
+      "textAlignment": "center"
+    }
+  }
+
 }
