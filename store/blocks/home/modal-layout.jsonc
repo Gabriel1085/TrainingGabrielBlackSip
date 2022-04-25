@@ -9,8 +9,7 @@
             "product-summary.shelf#modal"
         ],
         "children": [
-            "product-summary-name",
-            "product-selling-price"
+            "slider-layout"
         ]
     },
     "product-summary.shelf#modal": {
