@@ -5,7 +5,8 @@
       "slider-layout#home",
       "responsive-layout.desktop#home",
       "responsive-layout.mobile#home",
-      "tab-layout"
+      "tab-layout",
+      "modal-trigger#first"
     ]
   },
   "flex-layout.row": {
