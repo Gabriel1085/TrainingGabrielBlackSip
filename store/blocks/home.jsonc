@@ -1,15 +1,24 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text#titulo",
+      "rich-text#valores"
     ]
   },
-  "rich-text": { 
+  "rich-text#titulo": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "# Nuestros Valores",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
+    }
+  },
+  "rich-text#valores": {
+    "props": {
+      "text": "- ## Perseguimos el WOW de nuestros clientes.\n- ## Perseguimos el aprendizaje y el crecimiento.\n- ## Somos apasionados y disciplinados.\n- ## Somos un equipo.\n- ## Somos orientados a resultados.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
     }
   }
 }
