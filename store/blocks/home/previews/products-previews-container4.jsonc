@@ -1,0 +1,30 @@
+{
+    "flex-layout.col#products-previews-container4": {
+        "children": [
+            "flex-layout.row#products-previews-image4",
+            "flex-layout.row#products-previews-label4"
+        ]
+    },
+    "flex-layout.row#products-previews-image4": {
+        "children": [
+            "image#previews-image4"
+        ]
+    },
+    "flex-layout.row#products-previews-label4": {
+        "children": [
+            "rich-text#previews-label4"
+        ]
+    },
+    "image#previews-image4": {
+        "props": {
+            "src": "assets/93x93.png"
+        }
+    },
+    "rich-text#previews-label4": {
+        "props": {
+            "text": "Maquillaje",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

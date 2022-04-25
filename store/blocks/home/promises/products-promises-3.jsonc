@@ -1,0 +1,27 @@
+{
+    "flex-layout.col#products-promises-3": {
+        "children": [
+            "flex-layout.row#products-promises-3-container"
+        ]
+    },
+    "flex-layout.row#products-promises-3-container": {
+        "children": [
+            "image#icon3",
+            "rich-text#title3"
+        ]
+    },
+    "image#icon3": {
+        "props": {
+            "src": "assets/40x50.png",
+            "alt": "Icon promise",
+            "maxHeight": "50px"
+        }
+    },
+    "rich-text#title3": {
+        "props": {
+            "text": "Mejores\nprecios y\n**ofertas**",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    }
+}

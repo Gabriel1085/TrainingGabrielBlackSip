@@ -1,0 +1,27 @@
+{
+    "flex-layout.col#products-promises-2": {
+        "children": [
+            "flex-layout.row#products-promises-2-container"
+        ]
+    },
+    "flex-layout.row#products-promises-2-container": {
+        "children": [
+            "image#icon2",
+            "rich-text#title2"
+        ]
+    },
+    "image#icon2": {
+        "props": {
+            "src": "assets/40x50.png",
+            "alt": "Icon promise",
+            "maxHeight": "50px"
+        }
+    },
+    "rich-text#title2": {
+        "props": {
+            "text": "Compra **fácil\ny segura**",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    }
+}

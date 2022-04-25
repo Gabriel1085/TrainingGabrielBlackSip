@@ -1,0 +1,27 @@
+{
+    "flex-layout.col#products-promises-5": {
+        "children": [
+            "flex-layout.row#products-promises-5-container"
+        ]
+    },
+    "flex-layout.row#products-promises-5-container": {
+        "children": [
+            "image#icon5",
+            "rich-text#title5"
+        ]
+    },
+    "image#icon5": {
+        "props": {
+            "src": "assets/40x50.png",
+            "alt": "Icon promise",
+            "maxHeight": "50px"
+        }
+    },
+    "rich-text#title5": {
+        "props": {
+            "text": "Pago **online y**\n**contra entrega**",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    }
+}

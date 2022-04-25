@@ -1,0 +1,27 @@
+{
+    "flex-layout.col#products-promises-1": {
+        "children": [
+            "flex-layout.row#products-promises-1-container"
+        ]
+    },
+    "flex-layout.row#products-promises-1-container": {
+        "children": [
+            "image#icon1",
+            "rich-text#title1"
+        ]
+    },
+    "image#icon1": {
+        "props": {
+            "src": "assets/40x50.png",
+            "alt": "Icon promise",
+            "maxHeight": "50px"
+        }
+    },
+    "rich-text#title1": {
+        "props": {
+            "text": "Entregas en\n**45 min**",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    }
+}

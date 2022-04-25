@@ -1,0 +1,30 @@
+{
+    "flex-layout.col#products-previews-container1": {
+        "children": [
+            "flex-layout.row#products-previews-image1",
+            "flex-layout.row#products-previews-label1"
+        ]
+    },
+    "flex-layout.row#products-previews-image1": {
+        "children": [
+            "image#previews-image1"
+        ]
+    },
+    "flex-layout.row#products-previews-label1": {
+        "children": [
+            "rich-text#previews-label1"
+        ]
+    },
+    "image#previews-image1": {
+        "props": {
+            "src": "assets/93x93.png"
+        }
+    },
+    "rich-text#previews-label1": {
+        "props": {
+            "text": "Cuidado Capilar",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

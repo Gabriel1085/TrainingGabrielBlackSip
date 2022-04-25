@@ -1,0 +1,30 @@
+{
+    "flex-layout.col#products-previews-container5": {
+        "children": [
+            "flex-layout.row#products-previews-image5",
+            "flex-layout.row#products-previews-label5"
+        ]
+    },
+    "flex-layout.row#products-previews-image5": {
+        "children": [
+            "image#previews-image5"
+        ]
+    },
+    "flex-layout.row#products-previews-label5": {
+        "children": [
+            "rich-text#previews-label5"
+        ]
+    },
+    "image#previews-image5": {
+        "props": {
+            "src": "assets/93x93.png"
+        }
+    },
+    "rich-text#previews-label5": {
+        "props": {
+            "text": "Cuidado Bebé",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

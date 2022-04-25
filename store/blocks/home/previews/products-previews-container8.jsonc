@@ -1,0 +1,30 @@
+{
+    "flex-layout.col#products-previews-container8": {
+        "children": [
+            "flex-layout.row#products-previews-image8",
+            "flex-layout.row#products-previews-label8"
+        ]
+    },
+    "flex-layout.row#products-previews-image8": {
+        "children": [
+            "image#previews-image8"
+        ]
+    },
+    "flex-layout.row#products-previews-label8": {
+        "children": [
+            "rich-text#previews-label8"
+        ]
+    },
+    "image#previews-image8": {
+        "props": {
+            "src": "assets/93x93.png"
+        }
+    },
+    "rich-text#previews-label8": {
+        "props": {
+            "text": "Cuidado Facial",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

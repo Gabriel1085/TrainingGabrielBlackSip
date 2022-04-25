@@ -1,0 +1,46 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#products"
+    ]
+  },
+  "flex-layout.row#products": {
+    "children": [
+      "flex-layout.col#products-container"
+    ]
+  },
+  "flex-layout.col#products-container" :{
+    "children": [
+      "flex-layout.row#products-promises",
+      "flex-layout.row#products-previews"
+    ]
+  },
+  "flex-layout.row#products-promises": {
+    "children": [
+      "flex-layout.col#products-promises-1",
+      "flex-layout.col#products-promises-2",
+      "flex-layout.col#products-promises-3",
+      "flex-layout.col#products-promises-4",
+      "flex-layout.col#products-promises-5"
+    ]
+  },
+  "flex-layout.row#products-previews": {
+    "children": [
+      "flex-layout.col#products-previews-question",
+      "flex-layout.col#products-previews-container1",
+      "flex-layout.col#products-previews-container2",
+      "flex-layout.col#products-previews-container3",
+      "flex-layout.col#products-previews-container4",
+      "flex-layout.col#products-previews-container5",
+      "flex-layout.col#products-previews-container6",
+      "flex-layout.col#products-previews-container7",
+      "flex-layout.col#products-previews-container8"
+    ]
+  },
+  "flex-layout.col#products-previews-question": {
+    "children": [
+      "rich-text#question",
+      "rich-text#see-all"
+    ]
+  }
+}

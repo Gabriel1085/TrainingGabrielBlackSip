@@ -1,0 +1,28 @@
+{
+    "flex-layout.col#products-promises-4": {
+        "children": [
+            "flex-layout.row#products-promises-4-container"
+        ]
+    },
+    "flex-layout.row#products-promises-4-container": {
+        "children": [
+            "image#icon4",
+            "rich-text#title4"
+            
+        ]
+    },
+    "image#icon4": {
+        "props": {
+            "src": "assets/40x50.png",
+            "alt": "Icon promise",
+            "maxHeight": "50px"
+        }
+    },
+    "rich-text#title4": {
+        "props": {
+            "text": "**Seguimiento**\nde tus pedidos",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    }
+}

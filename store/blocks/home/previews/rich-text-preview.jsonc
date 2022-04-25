@@ -1,0 +1,16 @@
+{
+    "rich-text#question": {
+        "props": {
+        "text": "**¿QUÉ ESTAS\nBUSCANDO?**",
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT"
+        }
+    },
+    "rich-text#see-all": {
+        "props": {
+        "text": "**VER TODO**",
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT"
+        }
+    }
+}

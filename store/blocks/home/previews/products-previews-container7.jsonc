@@ -1,0 +1,30 @@
+{
+    "flex-layout.col#products-previews-container7": {
+        "children": [
+            "flex-layout.row#products-previews-image7",
+            "flex-layout.row#products-previews-label7"
+        ]
+    },
+    "flex-layout.row#products-previews-image7": {
+        "children": [
+            "image#previews-image7"
+        ]
+    },
+    "flex-layout.row#products-previews-label7": {
+        "children": [
+            "rich-text#previews-label7"
+        ]
+    },
+    "image#previews-image7": {
+        "props": {
+            "src": "assets/93x93.png"
+        }
+    },
+    "rich-text#previews-label7": {
+        "props": {
+            "text": "Cuidado Corporal",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}
