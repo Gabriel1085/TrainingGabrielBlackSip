@@ -4,7 +4,8 @@
       "flex-layout.row",
       "slider-layout#home",
       "responsive-layout.desktop#home",
-      "responsive-layout.mobile#home"
+      "responsive-layout.mobile#home",
+      "tab-layout"
     ]
   },
   "flex-layout.row": {
