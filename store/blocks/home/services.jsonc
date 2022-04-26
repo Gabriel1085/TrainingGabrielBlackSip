@@ -1,0 +1,68 @@
+{
+    "image#minutes": {
+        "props": {
+            "src": "assets/time.png",
+            "maxHeight": "23px"
+        }
+    },
+    "rich-text#minutes": {
+        "props": {
+            "text": "60 minutos"
+        }
+    },
+    "image#ingredients": {
+        "props": {
+            "src": "assets/ingredients.png",
+            "maxHeight": "23px"
+        }
+    },
+    "rich-text#ingredients": {
+        "props": {
+            "text": "8 ingredientes"
+        }
+    },
+    "image#level": {
+        "props": {
+            "src": "assets/chef.png",
+            "maxHeight": "23px"
+        }
+    },
+    "rich-text#level": {
+        "props": {
+            "text": "Nivel: Principiante"
+        }
+    },
+    "image#commensals": {
+        "props": {
+            "src": "assets/commensal.png",
+            "maxHeight": "23px"
+        }
+    },
+    "rich-text#commensals": {
+        "props": {
+            "text": "4 a 6 comensales"
+        }
+    },
+    "image#offers": {
+        "props": {
+            "src": "assets/offers.png",
+            "maxHeight": "23px"
+        }
+    },
+    "rich-text#offers": {
+        "props": {
+            "text": "S/1200 - S/ 1480"
+        }
+    },
+    "image#location": {
+        "props": {
+            "src": "assets/location.png",
+            "maxHeight": "23px"
+        }
+    },
+    "rich-text#location": {
+        "props": {
+            "text": "País: Perú"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "flex-layout.col#info": {
+        "children": [
+            "responsive-layout.mobile#info",
+            "responsive-layout.desktop#info"
+        ]
+    },
+    "responsive-layout.mobile#info": {
+        "children": [
+            "rich-text#title-mobile",
+            "rich-text#description-mobile",
+            "flex-layout.row#info-mobile"
+        ]
+    },
+    "responsive-layout.desktop#info": {
+        "children": [
+            "rich-text#title-desktop",
+            "rich-text#description-desktop",
+            "flex-layout.row#info-desktop"
+        ]
+    },
+    "rich-text#title-desktop": {
+        "props": {
+            "text": "# **Pavo dorado relleno al horno**",
+            "font": "heading-1",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#title-mobile": {
+        "props": {
+            "text": "### **Pavo dorado relleno al horno**",
+            "font": "heading-3",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#description-mobile": {
+        "props": {
+            "text": "Delicioso y sencillo de preparar, pavo al horno relleno de verduras con lorem upsum para celebrar en navidad con toda la familia.",
+            "textColor": "black-50"
+        }
+    },
+    "rich-text#description-desktop": {
+        "props": {
+            "text": "Delicioso y sencillo de preparar, pavo al horno relleno de verduras con jamon serrano para celebrar en navidad con toda la familia."
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "flex-layout.row#info-mobile": {
+        "children": [
+            "flex-layout.col#info-mobile-minutes-level-offers",
+            "flex-layout.col#info-mobile-ingredients-commensals-location"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#info-mobile-minutes-level-offers": {
+        "children": [
+            "flex-layout.row#minutes",
+            "flex-layout.row#level",
+            "flex-layout.row#offers"
+        ]
+    },
+    "flex-layout.col#info-mobile-ingredients-commensals-location": {
+        "children": [
+            "flex-layout.row#ingredients",
+            "flex-layout.row#commensals",
+            "flex-layout.row#location"
+        ]
+    }
+}

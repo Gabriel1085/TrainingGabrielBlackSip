@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#minutes": {
+        "children": [
+            "flex-layout.col#minutes",
+            "rich-text#minutes"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#minutes": {
+        "children": [
+            "image#minutes"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "width": "15%"
+        }
+    },
+    "flex-layout.row#ingredients": {
+        "children": [
+            "flex-layout.col#ingredients",
+            "rich-text#ingredients"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#ingredients": {
+        "children": [
+            "image#ingredients"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "width": "15%"
+        }
+    },
+    "flex-layout.row#offers": {
+        "children": [
+            "flex-layout.col#offers",
+            "rich-text#offers"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#offers": {
+        "children": [
+            "image#offers"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "width": "15%"
+        }
+    },
+    "flex-layout.row#level": {
+        "children": [
+            "flex-layout.col#level",
+            "rich-text#level"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#level": {
+        "children": [
+            "image#level"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "width": "15%"
+        }
+    },
+    "flex-layout.row#location": {
+        "children": [
+            "flex-layout.col#location",
+            "rich-text#location"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#location": {
+        "children": [
+            "image#location"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "width": "15%"
+        }
+    },
+    "flex-layout.row#commensals": {
+        "children": [
+            "flex-layout.col#commensals",
+            "rich-text#commensals"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#commensals": {
+        "children": [
+            "image#commensals"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "width": "15%"
+        }
+    }
+}

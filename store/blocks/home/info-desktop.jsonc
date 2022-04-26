@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#info-desktop": {
+        "children": [
+            "flex-layout.col#info-desktop-minutes-commensals",
+            "flex-layout.col#info-desktop-ingredients-offers",
+            "flex-layout.col#info-desktop-level-location"
+        ]
+    },
+    "flex-layout.col#info-desktop-minutes-commensals": {
+        "children": [
+            "flex-layout.row#minutes",
+            "flex-layout.row#commensals"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#info-desktop-ingredients-offers": {
+        "children": [
+            "flex-layout.row#ingredients",
+            "flex-layout.row#offers"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#info-desktop-level-location": {
+        "children": [
+            "flex-layout.row#level",
+            "flex-layout.row#location"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    }
+}
