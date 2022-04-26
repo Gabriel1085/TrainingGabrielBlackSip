@@ -1,0 +1,63 @@
+{
+  "store.home": { 
+    "blocks": [
+      "list-context.image-list#evoluciona"
+    ] 
+  },
+  "list-context.image-list#evoluciona": {
+    "children": [
+      "slider-layout#evoluciona"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/evoluciona.jpg",
+          "link": {
+            "url": "/categoria-1"
+          }
+        },
+        {
+          "image": "assets/evoluciona.jpg",
+          "link": {
+            "url": "/categoria-2"
+          }
+        },
+        {
+          "image": "assets/evoluciona.jpg",
+          "link": {
+            "url": "/categoria-3"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#evoluciona": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1
+      },
+      "autoplay": {
+        "timeout": 3500
+      },
+      "centerMode": "center",
+      "fullWidth": true,
+      "infinite": true
+    },
+    "children": [
+      "link#video"
+    ]
+  },
+  "video": {
+    "props": {
+      "src": "https://www.youtube.com/watch?v=4fezP875xOQ"
+    }
+  },
+  "link#video": {
+    "props": {
+      "href": "https://www.youtube.com/watch?v=4fezP875xOQ"
+    },
+    "children": [
+      "video"
+    ]
+  }
+}
