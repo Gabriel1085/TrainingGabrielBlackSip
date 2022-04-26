@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#promises": {
+        "children": [
+            "slider-layout#promises"
+        ]
+    },
+    "slider-layout#promises": {
+        "children": [
+            "rich-text#promise-1",
+            "rich-text#promise-2",
+            "rich-text#promise-3",
+            "rich-text#promise-4",
+            "rich-text#promise-5"
+        ],
+        "props": {
+            "centerMode": {
+                "desktop": "disabled",
+                "tablet": "to-the-left",
+                "phone": "to-the-left"
+            },
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never"
+        }
+    }
+}
