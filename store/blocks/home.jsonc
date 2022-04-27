@@ -1,7 +1,42 @@
 {
   "store.home": { 
     "blocks": [
-      
-    ] 
+      "list-context.product-list#top-sale"
+    ]
+  },
+  "list-context.product-list#top-sale": {
+    "blocks": [
+      "product-summary.shelf#vitrine"
+    ],
+    "children": [
+      "slider-layout#vitrine"
+    ]
+  },
+  "product-summary.shelf#vitrine": {
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#vitrine": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1,
+        "(min-width: 1600px)": 6
+      },
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "to-the-left"
+      }
+    }
   }
 }
