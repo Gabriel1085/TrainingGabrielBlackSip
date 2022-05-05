@@ -1,0 +1,52 @@
+{
+    "drawer#hombre": {
+        "blocks": [
+            "drawer-trigger#hombre",
+            "drawer-header#hombre"
+        ],
+        "children": [
+            "image#guia-tallas-hombre"
+        ]
+    },
+    "drawer-trigger#hombre": {
+        "children": [
+            "flex-layout.row#hombre"
+        ]
+    },
+    "flex-layout.row#hombre": {
+        "children": [
+            "rich-text#abrir-menu-tallas-hombre",
+            "image#hombre"
+        ],
+        "props": {
+            "colJustify": "between",
+            "fullWidth": true
+        }
+    },
+    "rich-text#abrir-menu-tallas-hombre": {
+        "props": {
+            "text": "HOMBRE"
+        }
+    },
+    "image#hombre": {
+        "props": {
+            "src": "assets/entrar.png"
+        }
+    },
+    "drawer-header#hombre": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#menu-tallas-hombre"
+        ]
+    },
+    "rich-text#menu-tallas-hombre": {
+        "props": {
+            "text": "GUIA DE TALLAS HOMBRE"
+        }
+    },
+    "image#guia-tallas-hombre": {
+        "props": {
+            "src": "assets/tallas.jpeg"
+        }
+    }
+}

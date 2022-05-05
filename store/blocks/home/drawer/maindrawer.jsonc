@@ -1,0 +1,41 @@
+{
+    "drawer#tallas": {
+        "blocks": [
+            "drawer-trigger",
+            "drawer-header"
+        ],
+        "children": [
+            "menu#menu-tallas"
+        ]
+    },
+    "drawer-trigger": {
+        "children": [
+            "rich-text#abrir-menu-tallas"
+        ]
+    },
+    "rich-text#abrir-menu-tallas": {
+        "props": {
+            "text": "GUIA DE TALLAS"
+        }
+    },
+    "drawer-header": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#menu-tallas"
+        ]
+    },
+    "rich-text#menu-tallas": {
+        "props": {
+            "text": "GUIA DE TALLAS"
+        }
+    },
+    "menu#menu-tallas": {
+        "children": [
+            "drawer#mujer",
+            "drawer#hombre"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}
