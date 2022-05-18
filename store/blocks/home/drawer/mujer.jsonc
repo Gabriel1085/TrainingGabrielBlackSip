@@ -41,11 +41,13 @@
     },
     "rich-text#menu-tallas-mujer": {
         "props": {
-            "text": "GUIA DE TALLAS MUJER"
+            "text": "GUIA DE TALLAS MUJER",
+            "blockClass": "headerTallasMujer"
         }
     },
     "image#guia-tallas-mujer": {
         "props": {
+            "blockClass": "contenidoTallasMujer",
             "src": "assets/tallas.jpeg"
         }
     }

@@ -26,7 +26,8 @@
     },
     "rich-text#menu-tallas": {
         "props": {
-            "text": "GUIA DE TALLAS"
+            "text": "GUIA DE TALLAS",
+            "blockClass": "headerTallasMain"
         }
     },
     "menu#menu-tallas": {

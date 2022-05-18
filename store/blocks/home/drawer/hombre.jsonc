@@ -41,11 +41,15 @@
     },
     "rich-text#menu-tallas-hombre": {
         "props": {
-            "text": "GUIA DE TALLAS HOMBRE"
+            "text": "GUIA DE TALLAS HOMBRE",
+            "blockClass":[
+                "headerTallasHombre"
+            ]
         }
     },
     "image#guia-tallas-hombre": {
         "props": {
+            "blockClass": "contenidoTallasHombre",
             "src": "assets/tallas.jpeg"
         }
     }

@@ -1,0 +1,13 @@
+.imageElement {
+    height: 20px;
+}
+
+.imageElement--contenidoTallasHombre {
+    width: 100%;
+    height: auto;
+}
+
+.imageElement--contenidoTallasMujer {
+    width: 100%;
+    height: auto;
+}
