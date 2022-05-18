@@ -33,6 +33,12 @@
       "minicart.v2"
     ]
   },
+  "search-bar": {
+    "props": {
+      "placeholder": "¿Qué producto buscas?"
+      
+    }
+  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -48,8 +54,11 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "assets/Blacksip.svg",
+      "width": "127",
+      "height": "34",
+      "mobileWidth": "98",
+      "mobileHeight": "27px"
     }
   },
   "header-layout.mobile": {
