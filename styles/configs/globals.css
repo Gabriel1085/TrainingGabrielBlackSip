@@ -1,0 +1,10 @@
+:global(.vtex-input-prefix__group) :global(.vtex-input__suffix) {
+    display: none;
+}
+
+:global(.vtex-input-prefix__group) {
+    width: 527px;
+    height: 36px;
+    border: 1px solid #7A7A7A;
+    border-radius: 100px;
+}

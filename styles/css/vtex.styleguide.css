@@ -1,0 +1,8 @@
+.input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+}
