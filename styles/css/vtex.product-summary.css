@@ -1,0 +1,25 @@
+.BrandName {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4f4f4f;
+}
+
+.buyButton :global(.vtex-button) {
+    background-color: #ffbb00;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 145px;
+}
+
+.buyButtonText {
+    color: #2E3192;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: "Open Sans";
+}
